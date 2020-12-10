@@ -84,7 +84,7 @@ class App extends Component {
 
 
 
-  r() {
+  render() {
     return (
       <section id= "itemstodo"> <NewTodo todoadd={this.todoadd} input={this.state.input} Change={this.Change}/>
       {this.state.todos.map((todotask) =>
