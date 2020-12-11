@@ -4,12 +4,16 @@ import './NewTodo.css';
 class NewTodo extends Component {
   render() {
     return (
-      <div id="placenewones">
-        <form id="formfornewones" onSubmit={this.props.todoadd}>
-          <input id="textback" type="text" placeholder="Write new To-Do" value={this.props.input} Change={this.props.Change}/>
+      <section id="itemstodo">
+      <aside id="placenewones">
+        <form id="formfornewones">
+          <input id="textback" type="text" placeholder ="Write new To-Do"></input>
           <button id="submitclick">click</button>
         </form>
-      </div>
+      </aside>
+
+
+    </section>
     );
   }
 }
