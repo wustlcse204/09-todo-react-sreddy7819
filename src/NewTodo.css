@@ -1,77 +1,111 @@
 #itemstodo {
-    position: relative;
-    left: 400px;
-    width: 50%;
+  position: relative;
+  left: 400px;
+  width: 50%;
+  
+  
+}
+#itemstodo .activity.finish {
+  color: lightseagreen;
+  
+}
+#itemstodo .activity.finish .done {
+  background-color: pink;
+
+}
+
+
+
+
+#itemstodo #placenewones #textback{
+  width:60%;
+  font-size: 50px;
+  margin: 5px;
+  text-align: center;
+}
+
+
+#itemstodo #placenewones #submitclick{
+  background-color: green;
+  color: white;
+  width: 100px;
+  font-size: 20px;
+  float: bottom;
+  position: relative;
+}
+#itemstodo .activity .remove{
+  position: relative;
+  float: right;
+  border: none;
+  font-size: 30px;
+  padding: 5px 10px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 4px;
+  top: -70px;
+  background-color: lightseagreen;
+  color: white;
+}
+  
+
+
+#itemstodo .activity{
+  font-size: 30px;
+  padding: 20px 0px;
+  border-bottom: 1px dotted #aaa;
+}
+
+
+
+#itemstodo .activity .done {
+  float: left;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border: 2px solid black;
+  position: relative;
+  top: 20px;
+  
+}
+
+
+@media (max-width: 768px){
+  #itemstodo{
     
-    
-  }
-  #itemstodo .activity.finish {
-    color: lightseagreen;
-    
-  }
-  #itemstodo .activity.finish .done {
-    background-color: pink;
- 
-  }
-  
-  
-  
-  
-  #itemstodo #placenewones #textback{
-    width:60%;
-    font-size: 50px;
-    margin: 5px;
-    text-align: center;
-  }
-  
-  
-  #itemstodo #placenewones #submitclick{
-    background-color: green;
-    color: white;
-    width: 100px;
-    font-size: 20px;
-    float: bottom;
-    position: relative;
+    left: 50px;
+    width: 100%;
   }
   #itemstodo .activity .remove{
+    position: relative;
     float: right;
     border: none;
     font-size: 30px;
     padding: 5px 10px;
-    width: 70px;
+    width: 150px;
+    height: 50px;
     font-size: 20px;
     border-radius: 4px;
-    background-color: blue;
+    top: -70px;
+    right: 35px;
+    background-color: lightseagreen;
     color: white;
   }
-    
- 
-  
-  #itemstodo .activity{
-    font-size: 30px;
-    padding: 20px 0px;
-    border-bottom: 1px dotted #aaa;
+  #itemstodo #placenewones #textback{
+    width:30%;
+    font-size: 15px;
+    margin: 5px;
+    text-align: center;
   }
-  
-  
-  
-  #itemstodo .activity .done {
-    float: left;
-    margin-right: 10px;
-    width: 40px;
-    height: 40px;
-    border: 2px solid black;
-    
-  }
-  
-  
-  @media (max-width: 768px){
-    #itemstodo{
-      
-      left: 50px;
-      width: 100%;
-    }
-  }
+
+}
+
+
+
+
+
+
+
   
   
   
