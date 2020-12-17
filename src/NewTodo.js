@@ -1,21 +1,17 @@
 import React, { Component } from 'react';
 import './NewTodo.css';
-
+ 
 class NewTodo extends Component {
-  render() {
-    return (
-      <section id="itemstodo">
-      <aside id="placenewones">
-        <form id="formfornewones">
-          <input id="textback" type="text" placeholder ="Write new To-Do"></input>
-          <button id="submitclick">click</button>
-        </form>
-      </aside>
-
-
-    </section>
-    );
-  }
+ render() {
+   return (
+     <div id="placenewones">
+       <form id="formfornewones" onSubmit={this.props.todoadd}>
+         <input id="textback" type="text" placeholder="Write new To-Do" value={this.props.input} onChange={this.props.onChange}/>
+         <button id="submitclick">click</button>
+       </form>
+     </div>
+   );
+ }
 }
-
+ 
 export default NewTodo;
